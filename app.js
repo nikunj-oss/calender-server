@@ -5,6 +5,7 @@ import cors from "cors"
 import corsOptions from "./constants/config.js"
 import userRoute from "./routes/UserRoutes.js"
 import eventRoute from "./routes/EventRoutes.js"
+import "./services/cron.js"
 
 dotenv.config({
     path: './.env'
